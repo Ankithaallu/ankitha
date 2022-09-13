@@ -1,0 +1,41 @@
+def removeCommonWords (sentl, sent2):
+
+D X
+
+IDLE Shell 3.10.5
+
+sentencellist (sentl.split())
+
+sentence2= list(sent2.split())
+
+frequencyl Counter (sentencel)
+
+frequency2 word = 0
+
+Counter (sentence2)
+
+for i in range (len (sentencel)):
+
+If sentencel[word] in frequency2.keys(): sentencel.pop (word)
+
+word word-1
+
+word += 1
+
+word = 0
+
+for i in range (len (sentence2)):
+
+if sentence2 [word] in frequency1.keys(): sentence2.pop (word)
+
+word word-1
+
+word += 1 print("OUTPUT:")
+
+print (*sentence1)
+
+print (*sentence2)
+
+sentencel input("Enter First string ")
+
+sentence2 input ("Enter second string") removeCommonWords (sentencel,
